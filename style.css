@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background-color: #224878;
+    background-color: #FAF0E6;
 }
 
 .container {
@@ -19,10 +19,9 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 75px);
     grid-template-rows: 160px repeat(5, 75px);
-    background-color: #00916e;
+    background-color: #5C5470;
     padding: 15px;
     border-radius: 32px;
-    box-shadow: 15px 10px 0px 5px #00000033;
 }
 
 button {
@@ -32,12 +31,12 @@ button {
     border-radius: 32px;
     font-size: 1.5em;
     border: none;
-    background-color: #00916e;
-    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
+    background-color: #5C5470;
+    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #352F44;
 }
 
 button:active {
-    background-color: #006f54;
+    background-color: #B9B4C7;
 }
 
 button:focus {
@@ -55,12 +54,12 @@ button:focus {
     margin: 10px  10px 20px;
     flex-direction: column;
     align-items: flex-end;
-    background-color: #363636;
+    background-color: rgb(38, 36, 36);
     border-radius: 32px;
     text-align: right;
     justify-content: space-between;
     word-break: break-all;
-    box-shadow: 0px 0px 0px 10px #00000032;
+    box-shadow: 0px 0px 0px 10px #52505032;
 }
 
 #valor-actual {
